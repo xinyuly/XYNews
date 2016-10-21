@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7D600031DBA0C0A0005FB38 /* XYChannelLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D6FFFF1DBA0C0A0005FB38 /* XYChannelLabel.m */; };
+		B7D600041DBA0C0A0005FB38 /* XYChannelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D600011DBA0C0A0005FB38 /* XYChannelCell.m */; };
+		B7D600071DBA0FF60005FB38 /* XYnewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D600061DBA0FF60005FB38 /* XYnewsController.m */; };
+		B7D6000A1DBA11390005FB38 /* XYNewsHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D600091DBA11390005FB38 /* XYNewsHomeController.m */; };
+		B7E5F2341DBA097B0007F4E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E5F2331DBA097B0007F4E2 /* main.m */; };
+		B7E5F2371DBA097B0007F4E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E5F2361DBA097B0007F4E2 /* AppDelegate.m */; };
+		B7E5F23A1DBA097B0007F4E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E5F2391DBA097B0007F4E2 /* ViewController.m */; };
+		B7E5F23D1DBA097B0007F4E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E5F23B1DBA097B0007F4E2 /* Main.storyboard */; };
+		B7E5F23F1DBA097B0007F4E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7E5F23E1DBA097B0007F4E2 /* Assets.xcassets */; };
+		B7E5F2421DBA097B0007F4E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E5F2401DBA097B0007F4E2 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B7D600001DBA0C0A0005FB38 /* XYChannelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYChannelCell.h; sourceTree = "<group>"; };
+		B7D600011DBA0C0A0005FB38 /* XYChannelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYChannelCell.m; sourceTree = "<group>"; };
+		B7D600051DBA0FF60005FB38 /* XYnewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYnewsController.h; sourceTree = "<group>"; };
+		B7D600061DBA0FF60005FB38 /* XYnewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYnewsController.m; sourceTree = "<group>"; };
+		B7D600081DBA11390005FB38 /* XYNewsHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYNewsHomeController.h; sourceTree = "<group>"; };
+		B7D600091DBA11390005FB38 /* XYNewsHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYNewsHomeController.m; sourceTree = "<group>"; };
+		B7D6FFFE1DBA0C0A0005FB38 /* XYChannelLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYChannelLabel.h; sourceTree = "<group>"; };
+		B7D6FFFF1DBA0C0A0005FB38 /* XYChannelLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYChannelLabel.m; sourceTree = "<group>"; };
+		B7E5F22F1DBA097B0007F4E2 /* XYNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E5F2331DBA097B0007F4E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7E5F2351DBA097B0007F4E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7E5F2361DBA097B0007F4E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7E5F2381DBA097B0007F4E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B7E5F2391DBA097B0007F4E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B7E5F23C1DBA097B0007F4E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7E5F23E1DBA097B0007F4E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7E5F2411DBA097B0007F4E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7E5F2431DBA097B0007F4E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7E5F22C1DBA097B0007F4E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7D6FFFB1DBA0C020005FB38 /* XYNews */ = {
+			isa = PBXGroup;
+			children = (
+				B7D6FFFE1DBA0C0A0005FB38 /* XYChannelLabel.h */,
+				B7D6FFFF1DBA0C0A0005FB38 /* XYChannelLabel.m */,
+				B7D600001DBA0C0A0005FB38 /* XYChannelCell.h */,
+				B7D600011DBA0C0A0005FB38 /* XYChannelCell.m */,
+				B7D600051DBA0FF60005FB38 /* XYnewsController.h */,
+				B7D600061DBA0FF60005FB38 /* XYnewsController.m */,
+				B7D600081DBA11390005FB38 /* XYNewsHomeController.h */,
+				B7D600091DBA11390005FB38 /* XYNewsHomeController.m */,
+			);
+			path = XYNews;
+			sourceTree = "<group>";
+		};
+		B7E5F2261DBA097B0007F4E2 = {
+			isa = PBXGroup;
+			children = (
+				B7E5F2311DBA097B0007F4E2 /* XYNews */,
+				B7E5F2301DBA097B0007F4E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7E5F2301DBA097B0007F4E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7E5F22F1DBA097B0007F4E2 /* XYNews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7E5F2311DBA097B0007F4E2 /* XYNews */ = {
+			isa = PBXGroup;
+			children = (
+				B7D6FFFB1DBA0C020005FB38 /* XYNews */,
+				B7E5F2351DBA097B0007F4E2 /* AppDelegate.h */,
+				B7E5F2361DBA097B0007F4E2 /* AppDelegate.m */,
+				B7E5F2381DBA097B0007F4E2 /* ViewController.h */,
+				B7E5F2391DBA097B0007F4E2 /* ViewController.m */,
+				B7E5F23B1DBA097B0007F4E2 /* Main.storyboard */,
+				B7E5F23E1DBA097B0007F4E2 /* Assets.xcassets */,
+				B7E5F2401DBA097B0007F4E2 /* LaunchScreen.storyboard */,
+				B7E5F2431DBA097B0007F4E2 /* Info.plist */,
+				B7E5F2321DBA097B0007F4E2 /* Supporting Files */,
+			);
+			path = XYNews;
+			sourceTree = "<group>";
+		};
+		B7E5F2321DBA097B0007F4E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7E5F2331DBA097B0007F4E2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7E5F22E1DBA097B0007F4E2 /* XYNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E5F2461DBA097B0007F4E2 /* Build configuration list for PBXNativeTarget "XYNews" */;
+			buildPhases = (
+				B7E5F22B1DBA097B0007F4E2 /* Sources */,
+				B7E5F22C1DBA097B0007F4E2 /* Frameworks */,
+				B7E5F22D1DBA097B0007F4E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XYNews;
+			productName = XYNews;
+			productReference = B7E5F22F1DBA097B0007F4E2 /* XYNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7E5F2271DBA097B0007F4E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = xiaoyu;
+				TargetAttributes = {
+					B7E5F22E1DBA097B0007F4E2 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B7E5F22A1DBA097B0007F4E2 /* Build configuration list for PBXProject "XYNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7E5F2261DBA097B0007F4E2;
+			productRefGroup = B7E5F2301DBA097B0007F4E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7E5F22E1DBA097B0007F4E2 /* XYNews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7E5F22D1DBA097B0007F4E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E5F2421DBA097B0007F4E2 /* LaunchScreen.storyboard in Resources */,
+				B7E5F23F1DBA097B0007F4E2 /* Assets.xcassets in Resources */,
+				B7E5F23D1DBA097B0007F4E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7E5F22B1DBA097B0007F4E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E5F23A1DBA097B0007F4E2 /* ViewController.m in Sources */,
+				B7D600041DBA0C0A0005FB38 /* XYChannelCell.m in Sources */,
+				B7E5F2371DBA097B0007F4E2 /* AppDelegate.m in Sources */,
+				B7D6000A1DBA11390005FB38 /* XYNewsHomeController.m in Sources */,
+				B7D600071DBA0FF60005FB38 /* XYnewsController.m in Sources */,
+				B7E5F2341DBA097B0007F4E2 /* main.m in Sources */,
+				B7D600031DBA0C0A0005FB38 /* XYChannelLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B7E5F23B1DBA097B0007F4E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7E5F23C1DBA097B0007F4E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7E5F2401DBA097B0007F4E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7E5F2411DBA097B0007F4E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7E5F2441DBA097B0007F4E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B7E5F2451DBA097B0007F4E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7E5F2471DBA097B0007F4E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XYNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XY.XYNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B7E5F2481DBA097B0007F4E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XYNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XY.XYNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7E5F22A1DBA097B0007F4E2 /* Build configuration list for PBXProject "XYNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E5F2441DBA097B0007F4E2 /* Debug */,
+				B7E5F2451DBA097B0007F4E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7E5F2461DBA097B0007F4E2 /* Build configuration list for PBXNativeTarget "XYNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E5F2471DBA097B0007F4E2 /* Debug */,
+				B7E5F2481DBA097B0007F4E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7E5F2271DBA097B0007F4E2 /* Project object */;
+}
